@@ -1,0 +1,1176 @@
+@import './base/base';
+@import './base/mixins';
+@import './base/variables';
+@import './main.css';
+@import './fonts.css';
+
+.search-friend {
+    width: 236px;
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.friend-foto {
+    width: 120px;
+    height: 120px;
+}
+
+.friend-name-text {
+    font-family: 'Kanit-700';
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 17px;
+    color: $four-black;
+}
+
+.hobby-text {
+    font-family: 'Kanit-300';
+    font-size: 14px;
+    line-height: 14px;
+    color: $six-black;
+    text-align: center;
+}
+
+.paragraph-text {
+    font-family: 'Kanit-700';
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: $four-black;
+}
+
+.tourism-foto {
+    width: 300px;
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-block {
+    width: 200px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-text {
+    font-family: 'Kanit-600';
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: $ffff;
+    letter-spacing: 2px;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 320px;
+    height: 100%;
+
+
+    &-header {
+        width: 320px;
+        height: 540px;
+        background-image: url(../images/Bitmap.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 10px;
+        flex-direction: column;
+
+
+        &-login {
+            width: 153px;
+            height: 56px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 20px;
+            margin-bottom: 70px;
+
+            &-none {
+                display: none;
+            }
+
+
+            &-login1 {
+                width: 54px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            &-login2 {
+                width: 90px;
+                height: 36px;
+                border-radius: 40px;
+                border: 2px solid $ffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &-text {
+                    font-family: 'Kanit-400';
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $ffff;
+                    text-decoration: none;
+                }
+            }
+
+
+        }
+
+        &-brand {
+            width: 152px;
+            height: 24px;
+
+
+            &-text {
+                font-family: 'Kanit-700';
+                font-size: 20px;
+                line-height: 44px;
+                color: $ffff;
+                letter-spacing: 1px;
+                text-align: center;
+
+            }
+        }
+
+        &-center {
+            width: 281px;
+            height: 214px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 10px;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 6px;
+            margin-bottom: 100px;
+
+
+
+            &-menu {
+                width: 272px;
+                height: 74px;
+
+                &-text {
+                    font-family: 'Kanit-700';
+                    font-size: 30px;
+                    line-height: 37px;
+                    text-align: center;
+                    letter-spacing: 2px;
+                    color: $ffff;
+                }
+            }
+
+            &-find {
+                width: 280px;
+                height: 49px;
+
+                &-text {
+                    font-family: 'Kanit-300';
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: $text;
+                }
+            }
+
+            &-search {
+                margin-bottom: 34px;
+                width: 280px;
+                height: 40px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background: $search-color;
+                border-radius: 40px;
+                margin-top: 6px;
+                margin-left: 4px;
+            }
+        }
+    }
+
+
+
+    &-main {
+        margin-top: 35px;
+        width: 320px;
+        height: 781px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        &-paragraph {
+
+            &-text {
+                font-family: 'Kanit-700';
+                letter-spacing: 2px;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: $four-black;
+            }
+        }
+
+        &-block1 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 1\ image.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            margin-top: 13px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+
+            &-step {
+                width: 70px;
+                height: 20px;
+                background-color: $search-color;
+                border-radius: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 39px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-400';
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: 3px;
+                    text-decoration: none;
+                    color: $ffff;
+
+                }
+            }
+
+            &-paragraph {
+                width: 250px;
+                height: 58px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-700';
+                    font-size: 24px;
+                    line-height: 14px;
+                    color: $ffff;
+                }
+            }
+
+            &-content {
+                width: 250px;
+                height: 58px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-300';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: $text;
+                }
+            }
+        }
+
+        &-block2 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 2\ image.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+
+            &-step {
+                width: 70px;
+                height: 20px;
+                background-color: $search-color;
+                border-radius: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 39px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-400';
+                    font-size: 10px;
+                    line-height: 12px;
+                    letter-spacing: 3px;
+                    text-decoration: none;
+                    color: $ffff;
+
+                }
+            }
+
+            &-paragraph {
+                width: 250px;
+                height: 29px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-700';
+                    font-size: 24px;
+                    line-height: 14px;
+                    color: $ffff;
+                }
+            }
+
+            &-content {
+                width: 250px;
+                height: 58px;
+                margin-left: 20px;
+
+                &-text {
+                    font-family: 'Kanit-300';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: $text;
+                }
+            }
+
+        }
+
+        &-block3 {
+            width: 300px;
+            height: 240px;
+            background-image: url(../images/Step\ 3\ image.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+        }
+    }
+
+    &-search {
+        width: 320px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 36px;
+
+        &-paragraph {
+            width: 280px;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-text {
+                font-family: 'Kanit-700';
+                letter-spacing: 1px;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;
+                color: $four-black;
+            }
+        }
+
+        &-friends1 {
+            margin-top: 14px;
+
+            &-foto1 {
+                background-image: url(../images/Avatar.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends2 {
+            &-foto2 {
+                background-image: url(../images/Avatar2.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends3 {
+            margin-top: 35px;
+
+            &-foto3 {
+                background-image: url(../images/Avatar3.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-friends4 {
+            &-foto4 {
+                background-image: url(../images/Avatar4.png);
+                background-repeat: no-repeat;
+            }
+        }
+
+        &-partners {
+            width: 280px;
+            height: 40px;
+            border: solid 2px $search-color;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 36px;
+
+            &-nosex {
+                font-family: 'Kanit-700';
+                font-size: 14px;
+                line-height: 17px;
+                color: $search-color;
+                letter-spacing: 1px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &-services {
+        width: 320px;
+        height: 100%;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-paragraph {
+            width: 280px;
+            height: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &-text {
+                text-align: center;
+            }
+        }
+
+        &-tourism {
+            width: 320px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+            &-foto1 {
+                margin-top: 33px;
+                background-image: url(../images/Sport.png);
+            }
+
+            &-foto2 {
+                background-image: url(../images/Healath2.png);
+            }
+
+            &-foto3 {
+                background-image: url(../images/Extreme.png);
+            }
+
+            &-foto4 {
+                background-image: url(../images/Games.png);
+            }
+
+            &-foto5 {
+                background-image: url(../images/Culture.png);
+            }
+
+            &-foto6 {
+                background-image: url(../images/Culture\ Copy.png);
+                background-size: 300px;
+            }
+
+            &-foto7 {
+                background-image: url(../images/Games\ Copy.png);
+            }
+
+        }
+    }
+
+    &-input {
+        width: 320px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 35px;
+
+        &-paragraph {
+            width: 280px;
+            height: 54px;
+
+            &-text {
+                text-align: center;
+            }
+        }
+
+        &-question {
+            width: 280px;
+            height: 24px;
+            margin-top: 18px;
+
+            &-text {
+                font-family: 'Kanit-300';
+                font-size: 18px;
+                line-height: 14px;
+                text-align: center;
+                color: $six-black;
+
+
+            }
+        }
+
+        &-placeholder {
+            width: 280px;
+            height: 40px;
+            border-radius: 3px;
+            border: 1px solid #D4D4D4;
+            color: $six-black;
+            margin-top: 6px;
+        }
+
+        &-searchParters {
+            width: 280px;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background: $search-color;
+            border-radius: 40px;
+            margin-top: 6px;
+            margin-left: 4px;
+
+            &-button {
+                text-decoration: none;
+                color: $ffff;
+                letter-spacing: 1px;
+
+            }
+        }
+    }
+
+    &-footer {
+        width: 320px;
+        height: 100%;
+        border-top: 3px solid $search-color;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-paragraph {
+            width: 300px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 19px;
+
+            &-dream {
+                color: $search-color;
+                font-family: 'Kanit-400';
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                letter-spacing: 2px;
+            }
+        }
+
+        &-company {
+            width: 300px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+
+            &-text {
+                font-family: 'Kanit-700';
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: $four-black;
+                letter-spacing: 1px;
+            }
+        }
+
+        &-info {
+            width: 280px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .info-text {
+                font-family: 'Kanit-300';
+                font-size: 14px;
+                line-height: 26px;
+                text-align: center;
+                color: $nine-black;
+                text-decoration: none;
+                margin: 0 5px;
+                letter-spacing: 1px;
+            }
+        }
+
+        &-partnerts {
+            width: 300px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 6px;
+
+            &-text {
+                font-family: 'Kanit-700';
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                color: $four-black;
+            }
+        }
+
+        &-design {
+            width: 300px;
+            height: 53px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 6px;
+            flex-direction: column;
+
+            &-text {
+                font-family: 'Kanit-700';
+                font-size: 10px;
+                line-height: 12px;
+                letter-spacing: 2px;
+                color: $bottom;
+            }
+
+            &-imag {
+                background-image: url(../images/Bitmap1.png);
+                width: 110px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        width: 768px;
+        height: 100%;
+
+        &-header {
+            width: 768px;
+            height: 700px;
+            background-size: 768px 700px;
+
+            &-login {
+                width: 670px;
+                height: 76px;
+
+
+                &-login1 {
+                    margin-left: 370px;
+                    margin-top: 7px;
+                }
+
+                &-login2 {
+                    width: 90px;
+                    margin-top: 7px;
+                }
+            }
+
+            &-brand {
+                display: none;
+            }
+
+            &-center {
+                width: 470px;
+                height: 352.5px;
+                display: flex;
+                justify-content: space-evenly;
+                margin-right: 30px;
+
+                &-menu {
+                    width: 470px;
+                    height: 146px;
+
+                    &-text {
+                        font-size: 52px;
+                        line-height: 63px;
+                    }
+                }
+
+                &-find {
+                    width: 470px;
+                    height: 25px;
+
+                    &-text {
+                        font-size: 24px;
+                        line-height: 24px;
+                    }
+                }
+
+                &-search {
+                    width: 225px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 74px;
+                }
+            }
+        }
+
+        &-main {
+            width: 768px;
+            height: 461px;
+            margin-top: 93px;
+
+        }
+
+        &-search {
+            width: 492px;
+            height: 605px;
+            align-items: center;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 95px;
+
+            &-paragraph {
+                width: 415px;
+                height: 27px;
+                margin-bottom: 20px;
+
+                &-friends4 {
+                    margin-left: 40px;
+                }
+            }
+
+            &-partners {
+                width: 180px;
+                height: 40px;
+            }
+        }
+
+        &-services {
+            width: 748px;
+            height: 1031px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 90px;
+
+            &-paragraph {
+                width: 350px;
+                height: 27px;
+            }
+
+            &-tourism {
+                width: 748px;
+                height: 989px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin: 0 auto;
+                margin-top: 22px;
+
+                &-foto1,
+                &-foto2,
+                &-foto3,
+                &-foto4,
+                &-foto7 {
+                    width: 236px;
+                    height: 310px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin: 0px;
+                }
+
+                &-foto5,
+                &-foto6 {
+                    width: 492px;
+                    height: 310px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin: 0px;
+                }
+            }
+        }
+
+        &-input {
+            width: 482px;
+            height: 158px;
+            margin: 0 auto;
+            margin-top: 103px;
+
+            &-paragraph {
+                width: 303px;
+                height: 27px;
+            }
+
+            &-question {
+                margin-top: 51px;
+                width: 415px;
+                height: 24px;
+            }
+
+            &-searchParters {
+                width: 172px;
+                height: 40px;
+                float: right;
+                margin-left: 10px;
+            }
+        }
+
+        &-footer {
+            width: 768px;
+            height: 224px;
+            margin: 100px 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: inherit;
+
+            &-paragraph {
+                width: 144px;
+                margin-top: 30px;
+            }
+
+            &-company {
+                margin: 35px 0 auto;
+                height: 17px;
+                width: 144px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            &-info {
+                align-items: flex-start;
+                display: flex;
+                flex-direction: column;
+                height: 156px;
+                width: 144px;
+                text-align: start;
+
+                &-text {
+                    text-align: start;
+                }
+            }
+
+            &-partnerts {
+                width: 110px;
+                margin-top: 35px;
+            }
+
+            &-design {
+                width: 110px;
+                margin-top: 35px;
+
+            }
+        }
+
+    }
+
+
+    .form {
+        margin-top: 20px;
+    }
+
+    .mains-block1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+
+    }
+
+    .main-block {
+        width: 236px;
+        height: 400px;
+        margin: 0 10px;
+
+    }
+
+    .wrapper-friends {
+        display: flex;
+        height: 550px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .search-friend {
+        width: 236px;
+        height: 205px;
+    }
+
+    .friend4 {
+        margin-top: 0px;
+    }
+
+    .wrapper-tourism {
+        width: 748px;
+        height: 310px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .container-header-center-search {
+        width: 225px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-header-login-none {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+
+        &-header {
+            width: 100%;
+            height: 700px;
+            background-size: 100% 100%;
+            &-login{
+                width: 940px;
+                &-login1{
+                    margin-left: 570px;
+                }
+                &-login2{
+                    margin-right: 40px;
+                }
+            }
+        }
+
+        &-main {
+            width: 940px;
+            height: 100%;
+            margin: 0 auto;
+            margin-top: 89px;
+
+            &-paragraph {
+                &-text {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+            }
+
+            &-block1 {
+                width: 300px;
+                height: 400px;
+                background-size: 100% 100%;
+            }
+
+            &-block2 {
+                width: 300px;
+                height: 400px;
+                background-size: 100% 100%;
+            }
+
+            &-block3 {
+                width: 300px;
+                height: 400px;
+                background-size: 100% 100%;
+            }
+        }
+
+        &-search {
+            width: 941px;
+            height: 361px;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 86px;
+
+            &-paragraph {
+                width: 491px;
+                height: 32px;
+                margin-bottom: 30px;
+
+                &-text {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+            }
+
+            &-friends1 {
+                width: 221px;
+                height: 205px;
+                margin: 0 5px;
+
+            }
+
+            &-friends2 {
+                width: 221px;
+                height: 205px;
+                margin: 0 5px;
+
+            }
+
+            &-friends3 {
+                width: 221px;
+                height: 205px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 0 5px;
+
+
+            }
+
+            &-friends4 {
+                width: 221px;
+                height: 205px;
+                margin: 0 5px;
+
+            }
+
+            &-partners {
+                width: 180px;
+                height: 60px;
+            }
+
+
+        }
+
+        &-services {
+            width: 940px;
+            height: 1031px;
+            margin: 0 auto;
+            margin-top: 100px;
+
+            &-paragraph {
+                width: 413px;
+                height: 32px;
+
+                &-text {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+            }
+
+            &-tourism {
+                width: 940px;
+                height: 989px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin: 0 auto;
+                margin-top: 22px;
+
+                &-foto1,
+                &-foto2,
+                &-foto3,
+                &-foto4,
+                &-foto7 {
+                    width: 300px;
+                    height: 310px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin: 0 px;
+                }
+
+                &-foto5,
+                &-foto6 {
+                    width: 620px;
+                    height: 310px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin: 0px;
+                }
+            }
+
+        }
+
+        &-input {
+            width: 482px;
+            height: 158px;
+            margin: 0 auto;
+            margin-top: 96px;
+
+            &-paragraph {
+                width: 358px;
+                height: 32px;
+                &-text {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+            }
+        }
+        &-footer{
+            width: 1440px;
+            height: 224px;
+            margin: 0 auto;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            &-design{
+                margin-right: 80px;
+            }
+            &-paragraph{
+                margin-top: 40px;
+                margin-left: 70px;
+            }
+            &-company{
+                margin-top: 40px;
+            }
+            &-partnerts{
+                margin-top: 40px;
+                margin-right: 70px;
+            }
+        }
+    }
+
+
+    .wrapper-friends {
+        display: flex;
+        height: 361px;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .wrapper-tourism {
+        width: 940px;
+        height: 310px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 11px;
+    }
+}
